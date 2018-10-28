@@ -27,8 +27,26 @@ public class Main {
                 a++;
             }
             a = 1;
-            System.out.println("*");
+            System.out.println("");
             b++;
         }
+        //Task 4
+        System.out.println("Task 4");
+        a = 1;
+        b = 1;
+        starRowLimit = 5;
+        starColLimit = 5;
+        while(b <= starColLimit) {
+            while (a <= starRowLimit) {
+                System.out.print("*");
+                a++;
+            }
+            a = 1;
+            System.out.println("");
+            b++;
+            starRowLimit--;
+        }
+        //Task 5
+
     }
 }
