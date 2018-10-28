@@ -47,6 +47,35 @@ public class Main {
             starRowLimit--;
         }
         //Task 5
+        System.out.println("Task 5");
+        int c = 1;
+        int d = 1;
+        starRowLimit = 5;
+        starColLimit = 5;
+        while (d <=starColLimit) {
+            switch (d)
+            {
+                case 1: System.out.print("");
+                break;
+                case 2: System.out.print(" ");
+                break;
+                case 3: System.out.print("  ");
+                break;
+                case 4: System.out.print("   ");
+                break;
+                case 5: System.out.print("    ");
+                break;
+            }
+            while (c <= starRowLimit) {
+
+                System.out.print("*");
+                c++;
+            }
+        System.out.println("");
+        c = 1;
+        d++;
+        starRowLimit--;
+        }
 
     }
 }
